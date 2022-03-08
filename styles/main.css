@@ -104,6 +104,26 @@ html {
   color: #828282;
 }
 
+.card-services {
+  display: flex;
+  align-items: flex-start;
+  padding: 3rem 2rem;
+  flex-direction: column;
+  width: 25rem;
+  box-sizing: border-box;
+  background-color: #212121;
+  border-bottom: 3px solid #00DF5E;
+}
+.card-services img {
+  margin-bottom: 4rem;
+}
+.card-services h1 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #828282;
+  width: 12rem;
+}
+
 .main-header {
   width: 80%;
   max-width: 1300px;
@@ -223,6 +243,20 @@ html {
   align-items: center;
   flex-wrap: wrap;
   gap: 4.5rem;
+}
+
+.services-section {
+  width: 80%;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 12rem;
+}
+.services-section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5rem;
+  flex-wrap: wrap;
 }
 
 .wrapper-item {

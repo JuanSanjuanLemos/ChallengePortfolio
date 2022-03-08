@@ -1,0 +1,11 @@
+@use '../settings/colors' as c;
+@use '../settings/mixins' as m;
+.services-section{
+    @include m.container;
+    margin-top: 12rem;
+    div{
+        @include m.center;
+        gap: 4.5rem;
+        flex-wrap: wrap;
+    }
+}
