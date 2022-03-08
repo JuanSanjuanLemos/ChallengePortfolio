@@ -17,6 +17,9 @@
             text-decoration: none;
             color: c.$light-color;
             font-size: 1.8rem;
+            &:hover{
+                color: c.$secondary-color;
+            }
         }
         &.active{
             display: block;
