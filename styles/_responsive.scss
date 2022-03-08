@@ -40,3 +40,9 @@
         padding: 2rem 2.5rem;
     }
 }
+//Servicess-section
+@include m.sm{
+    .card-services{
+        width: 32rem;
+    }
+}
