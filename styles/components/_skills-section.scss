@@ -9,9 +9,11 @@
         flex-wrap: wrap;
         .card-skill{
             @include m.center;
+            box-sizing: border-box;
             height: 14rem;
             width: 14rem;
             background-color: c.$gray-2-color;
+            border: 1px solid c.$gray-1-color;
         }
     }
 }
