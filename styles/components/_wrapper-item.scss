@@ -1,0 +1,25 @@
+@use '../settings/colors' as c;
+@use '../settings/mixins' as m;
+.wrapper-item{
+    @include m.center;
+    flex-direction: column;
+    margin: auto;
+    span{
+        @include m.center;
+        background-color: c.$gray-2-color;
+        width: 6.2rem;
+        height: 6.2rem;
+        border-radius: 100%;
+        margin-bottom: 3.4rem;
+    }
+    h2{
+        color: c.$light-color;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+    h3{
+        color: c.$secondary-color;
+        font-size: 1.6rem;
+    }
+}

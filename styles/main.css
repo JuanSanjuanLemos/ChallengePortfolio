@@ -58,6 +58,36 @@ html {
   font-size: 10px;
 }
 
+.about-section {
+  width: 80%;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 12rem;
+}
+.about-section h1 {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #F9F9F9;
+  margin-bottom: 3rem;
+}
+.about-section p {
+  text-align: center;
+  margin: auto;
+  font-size: 1.8rem;
+  color: #828282;
+  max-width: 75rem;
+}
+.about-section div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 10rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
 .main-header {
   width: 80%;
   max-width: 1300px;
@@ -97,7 +127,7 @@ html {
   gap: 3rem;
 }
 .main-header .menu-icon {
-  font-size: 4.5rem;
+  font-size: 3rem;
   color: #F9F9F9;
   cursor: pointer;
 }
@@ -155,6 +185,34 @@ html {
 .main-section .avatar-img {
   width: 90%;
   max-width: 300px;
+}
+
+.wrapper-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.wrapper-item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 100%;
+  margin-bottom: 3.4rem;
+}
+.wrapper-item h2 {
+  color: #F9F9F9;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.wrapper-item h3 {
+  color: #828282;
+  font-size: 1.6rem;
 }
 
 @media (min-width: 768px) {
