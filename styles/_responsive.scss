@@ -33,3 +33,10 @@
         flex-direction: column;
     }
 }
+//Projects-section
+@include m.sm{
+    .card-project{
+        width: 32rem;
+        padding: 2rem 2.5rem;
+    }
+}

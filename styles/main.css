@@ -82,11 +82,10 @@ html {
 }
 
 .card-project {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   width: 25rem;
-  height: 16rem;
-  margin: auto;
   padding: 2rem 2rem;
   background-color: #212121;
 }
@@ -216,13 +215,14 @@ html {
   width: 80%;
   max-width: 1300px;
   margin: auto;
+  margin-top: 12rem;
 }
 .projects-section div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 4.5rem;
 }
 
 .wrapper-item {
@@ -283,5 +283,11 @@ html {
   .main-section .wrapper-welcome div {
     display: flex;
     flex-direction: column;
+  }
+}
+@media (min-width: 576px) {
+  .card-project {
+    width: 32rem;
+    padding: 2rem 2.5rem;
   }
 }/*# sourceMappingURL=main.css.map */

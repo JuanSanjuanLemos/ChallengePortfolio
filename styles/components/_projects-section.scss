@@ -2,9 +2,10 @@
 @use '../settings/mixins' as m;
 .projects-section{
     @include m.container;
+    margin-top: 12rem;
     div{
         @include m.center;
         flex-wrap: wrap;
-        gap: 3rem;
+        gap: 4.5rem;
     }
 }
