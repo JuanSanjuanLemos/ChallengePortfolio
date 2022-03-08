@@ -1,0 +1,22 @@
+@use './settings/mixins' as m;
+@use './settings/colors' as c;
+//Header
+@include m.md{
+    .main-header{
+        .menu-icon{
+            display: none;
+        }
+        .main-nav{
+            display: flex;            
+            ul{
+                @include m.space-between;
+                width: 48rem;
+                a{
+                    text-decoration: none;
+                    color: c.$light-color;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}
