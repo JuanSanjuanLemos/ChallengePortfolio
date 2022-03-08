@@ -59,8 +59,8 @@ html {
 }
 
 .main-header {
-  width: 90%;
-  max-width: 1400px;
+  width: 80%;
+  max-width: 1300px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -103,8 +103,8 @@ html {
 }
 
 .main-section {
-  width: 90%;
-  max-width: 1400px;
+  width: 80%;
+  max-width: 1300px;
   margin: auto;
   margin-top: 5rem;
   display: flex;
@@ -181,5 +181,11 @@ html {
   }
   .main-section .wrapper-welcome {
     align-items: flex-start;
+  }
+}
+@media (max-width: 375px) {
+  .main-section .wrapper-welcome div {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -27,3 +27,9 @@
         }
     }
 }
+@include m.xsm{
+    .main-section .wrapper-welcome div{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,6 +1,6 @@
 @mixin container {
-    width: 90%;
-    max-width: 1400px;
+    width: 80%;
+    max-width: 1300px;
     margin: auto;
 }
 @mixin space-between {
@@ -15,6 +15,11 @@
 }
 @mixin md{
     @media (min-width:768px) {
+        @content;
+    }
+}
+@mixin xsm{
+    @media (max-width:375px) {
         @content;
     }
 }
