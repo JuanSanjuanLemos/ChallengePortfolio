@@ -6,7 +6,11 @@ function menuToggle(){
 
 function checkWidth(){
     if(window.screen.width>768){
-        navbar.classList.remove('active');
+        menuRemove();
         console.log(window.screen.width)
     }
+}
+
+function menuRemove(){
+    navbar.classList.remove('active');
 }
