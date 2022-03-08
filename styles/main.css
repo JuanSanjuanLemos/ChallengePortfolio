@@ -64,13 +64,6 @@ html {
   margin: auto;
   margin-top: 12rem;
 }
-.about-section h1 {
-  text-align: center;
-  font-size: 3.2rem;
-  font-weight: 700;
-  color: #F9F9F9;
-  margin-bottom: 3rem;
-}
 .about-section p {
   text-align: center;
   margin: auto;
@@ -86,6 +79,30 @@ html {
   margin-top: 10rem;
   flex-wrap: wrap;
   gap: 3rem;
+}
+
+.card-project {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 16rem;
+  margin: auto;
+  padding: 2rem 2rem;
+  background-color: #212121;
+}
+.card-project img {
+  width: 100%;
+  margin-bottom: 2.3rem;
+}
+.card-project h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 0.6rem;
+}
+.card-project h3 {
+  font-size: 1.4rem;
+  color: #828282;
 }
 
 .main-header {
@@ -185,6 +202,27 @@ html {
 .main-section .avatar-img {
   width: 90%;
   max-width: 300px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #F9F9F9;
+  margin-bottom: 3rem;
+}
+
+.projects-section {
+  width: 80%;
+  max-width: 1300px;
+  margin: auto;
+}
+.projects-section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 
 .wrapper-item {

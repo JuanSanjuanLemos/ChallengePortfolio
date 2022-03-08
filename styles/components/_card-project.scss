@@ -1,0 +1,25 @@
+@use '../settings/colors' as c;
+@use '../settings/mixins' as m;
+.card-project{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 16rem;
+    margin: auto;
+    padding: 2rem 2rem;
+    background-color: c.$gray-2-color;
+    img{
+        width: 100%;
+        margin-bottom: 2.3rem;
+    }
+    h2{
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 0.6rem;
+    }
+    h3{
+        font-size: 1.4rem;
+        color: c.$secondary-color;
+    }
+}

@@ -1,0 +1,8 @@
+@use '../settings/colors' as c;
+.main-title{
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: c.$light-color;
+    margin-bottom: 3rem;
+}
