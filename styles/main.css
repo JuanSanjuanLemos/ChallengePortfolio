@@ -75,9 +75,27 @@ html {
 .main-header .main-nav {
   display: none;
 }
+.main-header .main-nav a {
+  text-decoration: none;
+  color: #F9F9F9;
+  font-size: 1.8rem;
+}
+.main-header .main-nav.active {
+  display: block;
+  position: fixed;
+  top: 10rem;
+  width: 100%;
+  height: 100%;
+}
+.main-header .main-nav.active ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 .main-header .menu-icon {
   font-size: 4.5rem;
   color: #F9F9F9;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -92,10 +110,5 @@ html {
     justify-content: space-between;
     align-items: center;
     width: 48rem;
-  }
-  .main-header .main-nav ul a {
-    text-decoration: none;
-    color: #F9F9F9;
-    font-size: 1.8rem;
   }
 }/*# sourceMappingURL=main.css.map */

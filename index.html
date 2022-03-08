@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="./styles/main.css">
 </head>
-<body>
+<body onresize="checkWidth()">
     <header class="main-header">
         <h1>Portfólio</h1>
         <nav class="main-nav">
@@ -25,7 +25,8 @@
                 <li><a href="#skills">Minhas skills</a></li>
             </ul>
         </nav>
-        <i class="bi bi-list menu-icon"></i>
+        <i class="bi bi-list menu-icon" onclick="menuToggle()"></i>
     </header>
+    <script src="./script.js"></script>
 </body>
 </html>
