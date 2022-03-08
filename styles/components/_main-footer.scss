@@ -1,0 +1,13 @@
+@use '../settings/colors' as c;
+@use '../settings/mixins' as m;
+.main-footer{
+    @include m.center;
+    margin-top: 18rem;
+    background-color: c.$gray-2-color;
+    color: c.$light-color;
+    font-size: 1.6rem;
+    height: 6rem;
+    span{
+        color: c.$primary-color;
+    }
+}

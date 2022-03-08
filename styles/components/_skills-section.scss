@@ -5,12 +5,12 @@
     margin-top: 12rem;
     div{
         @include m.center;
-        gap: 5rem;
+        gap: 4.5rem;
         flex-wrap: wrap;
         .card-skill{
             @include m.center;
-            height: 15rem;
-            width: 15rem;
+            height: 14rem;
+            width: 14rem;
             background-color: c.$gray-2-color;
         }
     }
